@@ -1,0 +1,31 @@
+{
+    "name" : "dystopia.js",
+    "version" : "0.0.0",
+    "description" : "another camping conference but about extreme skills that shouldnt be so extreme",
+    "main" : "index.js",
+    "bin" : {},
+    "directories" : {
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {},
+    "devDependencies" : {
+        "tape" : "~4.0.0"
+    },
+    "scripts" : {
+        "test" : "tape test/*.js"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/soldair/dystopia.js.git"
+    },
+    "homepage" : "https://github.com/soldair/dystopia.js",
+    "keywords" : ["camping"],
+    "author" : {
+        "name" : "Ryan Day",
+        "email" : "soldair@gmail.com",
+        "url" : "https://github.com/soldair"
+    },
+    "license" : "MIT",
+    "engine" : { "node" : ">=0.6" }
+}
